@@ -1,0 +1,17 @@
+
+<div style="padding: 5%;" class="col=md-4" >
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Movie Name" [(ngModel)]="movieName"/>
+    </div>
+    <div class="form-group">
+       <input type="text" class="form-control" placeholder="Movie Director" [(ngModel)] ="movieDirector" >
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Movie Actor" [(ngModel)]="movieActor" >
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" (click)=save() >Save</button>
+        <button class="btn btn-primary" (click)=cancel() >Cancel</button>
+        <button class="btn btn-primary" (click)=showAll() >Show All</button>
+    </div>
+</div>
